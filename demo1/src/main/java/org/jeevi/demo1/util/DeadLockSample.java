@@ -1,3 +1,5 @@
+package org.jeevi.demo1.util;
+
 /**
  * @className: PACKAGE_NAME -> Demo
  * @description:
@@ -14,6 +16,7 @@ public class DeadLockSample extends Thread {
         this.second = second;
     }
 
+    @Override
     public  void run() {
         System.out.println("first hashCode" + first.hashCode());
         System.out.println("second hashCode" + second.hashCode());

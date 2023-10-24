@@ -1,17 +1,17 @@
-package org.jeevi.demo1;
+package org.jeevi.demo1.syncd;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 /**
- * @className: org.jeevi.demo1 -> TestCounter
+ * @className: org.jeevi.demo1.syncd -> TaskQueueTest
  * @description:
  * @author: jeevi
- * @createDate: 2023/10/17 20:13
+ * @createDate: 2023/10/24 19:57
  * @version: 1.0
  */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
-public class TestCounter {
+class TaskQueueTest {
 
     @Test
     void counter() {

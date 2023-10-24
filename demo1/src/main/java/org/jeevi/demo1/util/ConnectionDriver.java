@@ -1,3 +1,5 @@
+package org.jeevi.demo1.util;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -5,7 +7,7 @@ import java.sql.Connection;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @className: PACKAGE_NAME -> ConnectionDriver
+ * @className: PACKAGE_NAME -> org.jeevi.demo1.util.ConnectionDriver
  * @description:
  * @author: jeevi
  * @createDate: 2023/8/19 17:37

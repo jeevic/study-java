@@ -1,22 +1,19 @@
-package org.jeevi.demo1;
+package org.jeevi.demo1.util;
 
-import org.jeevi.demo1.Demo1Application;
-import org.jeevi.demo1.util.PrivateIpUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Import;
 
-import java.util.concurrent.CountDownLatch;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * @className: com.qihoo.finance.dspmanage.controller -> org.jeevi.demo1.TestPrivateIpUtil
+ * @className: org.jeevi.demo1.util -> PrivateIpUtilTest
  * @description:
  * @author: jeevi
- * @createDate: 2023/5/24 18:25
+ * @createDate: 2023/10/24 19:56
  * @version: 1.0
  */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
-public class TestPrivateIpUtil {
+class PrivateIpUtilTest {
 
     @Test
     void isValidIPv4() {
@@ -65,6 +62,4 @@ public class TestPrivateIpUtil {
         assert PrivateIpUtil.isPrivateIPv4(ip);
 
     }
-
-
 }

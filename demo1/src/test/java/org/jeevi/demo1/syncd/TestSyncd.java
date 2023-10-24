@@ -1,6 +1,5 @@
-package org.jeevi.demo1;
+package org.jeevi.demo1.syncd;
 
-import org.jeevi.demo1.syncd.TaskQueue;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

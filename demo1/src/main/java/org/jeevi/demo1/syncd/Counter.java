@@ -1,4 +1,4 @@
-package org.jeevi.demo1;
+package org.jeevi.demo1.syncd;
 
 /**
  * @className: org.jeevi.demo1 -> Counter

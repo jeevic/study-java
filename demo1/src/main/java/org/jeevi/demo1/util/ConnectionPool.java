@@ -1,8 +1,12 @@
+package org.jeevi.demo1.util;
+
+import org.jeevi.demo1.util.ConnectionDriver;
+
 import java.sql.Connection;
 import java.util.LinkedList;
 
 /**
- * @className: PACKAGE_NAME -> ConnectionPool
+ * @className: PACKAGE_NAME -> org.jeevi.demo1.util.ConnectionPool
  * @description:
  * @author: jeevi
  * @createDate: 2023/8/19 17:33
