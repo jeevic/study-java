@@ -78,10 +78,10 @@
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>2.2.0</version>
         </dependency>
-
+        <!--添加自动配置模块为其依赖-->
         <dependency>
-            <groupId>com.jeevi</groupId>
-            <artifactId>spring-boot-starter-demo-starter</artifactId>
+            <groupId>com.github.jeevic.study</groupId>
+            <artifactId>springboot-starter-demo-autoconfiguration</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

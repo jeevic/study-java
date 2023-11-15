@@ -39,6 +39,7 @@
         <module>../study-java-springboot-demo</module>
         <module>../study-java-springboot-demo2</module>
         <module>../netty-demo</module>
+        <module>../spingboot-starter-demo-autoconfiguration</module>
 
     </modules>
 
