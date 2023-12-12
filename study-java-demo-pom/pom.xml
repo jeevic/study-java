@@ -40,7 +40,6 @@
         <module>../study-java-springboot-demo2</module>
         <module>../netty-demo</module>
         <module>../spingboot-starter-demo-autoconfiguration</module>
-
     </modules>
 
     <!--定义属性：properties，以下则设置公用的版本号-->
